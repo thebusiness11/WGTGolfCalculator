@@ -410,6 +410,7 @@
 				GCC_PREFIX_HEADER = "GolfCalculator/GolfCalculator-Prefix.pch";
 				INFOPLIST_FILE = "GolfCalculator/GolfCalculator-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -421,6 +422,7 @@
 				GCC_PREFIX_HEADER = "GolfCalculator/GolfCalculator-Prefix.pch";
 				INFOPLIST_FILE = "GolfCalculator/GolfCalculator-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
