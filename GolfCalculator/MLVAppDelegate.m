@@ -7,12 +7,17 @@
 //
 
 #import "MLVAppDelegate.h"
+#import "MLVSyncEngine.h"
+#import "Club.h"
+#import "IronSet.h"
 
 @implementation MLVAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [[MLVSyncEngine sharedEngine] registerNSManagedObjectClassToSync:[Club class]];
+    [[MLVSyncEngine sharedEngine] registerNSManagedObjectClassToSync:[IronSet class]];
+    
     return YES;
 }
 							

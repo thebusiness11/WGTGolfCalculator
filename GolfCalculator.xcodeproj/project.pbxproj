@@ -23,6 +23,25 @@
 		405E024F17CCDBF20003EEF7 /* MLVSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 405E024E17CCDBF20003EEF7 /* MLVSecondViewController.m */; };
 		405E025117CCDBF20003EEF7 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 405E025017CCDBF20003EEF7 /* second.png */; };
 		405E025317CCDBF20003EEF7 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 405E025217CCDBF20003EEF7 /* second@2x.png */; };
+		405E025B17CCDC460003EEF7 /* MLVCoreDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 405E025A17CCDC460003EEF7 /* MLVCoreDataController.m */; };
+		405E027017CCDC7B0003EEF7 /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 405E025E17CCDC7B0003EEF7 /* AFHTTPClient.m */; };
+		405E027117CCDC7B0003EEF7 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 405E026017CCDC7B0003EEF7 /* AFHTTPRequestOperation.m */; };
+		405E027217CCDC7B0003EEF7 /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 405E026217CCDC7B0003EEF7 /* AFImageRequestOperation.m */; };
+		405E027317CCDC7B0003EEF7 /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 405E026417CCDC7B0003EEF7 /* AFJSONRequestOperation.m */; };
+		405E027417CCDC7B0003EEF7 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 405E026617CCDC7B0003EEF7 /* AFNetworkActivityIndicatorManager.m */; };
+		405E027517CCDC7B0003EEF7 /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 405E026917CCDC7B0003EEF7 /* AFPropertyListRequestOperation.m */; };
+		405E027617CCDC7B0003EEF7 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 405E026B17CCDC7B0003EEF7 /* AFURLConnectionOperation.m */; };
+		405E027717CCDC7B0003EEF7 /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 405E026D17CCDC7B0003EEF7 /* AFXMLRequestOperation.m */; };
+		405E027817CCDC7B0003EEF7 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 405E026F17CCDC7B0003EEF7 /* UIImageView+AFNetworking.m */; };
+		405E027A17CCDCA10003EEF7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 405E027917CCDCA10003EEF7 /* Security.framework */; };
+		405E027C17CCDCA60003EEF7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 405E027B17CCDCA60003EEF7 /* SystemConfiguration.framework */; };
+		405E027E17CCDCAB0003EEF7 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 405E027D17CCDCAB0003EEF7 /* MobileCoreServices.framework */; };
+		405E028117CCDD380003EEF7 /* MLVAFParseAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 405E028017CCDD380003EEF7 /* MLVAFParseAPIClient.m */; };
+		405E028417CCE03D0003EEF7 /* MLVSyncEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 405E028317CCE03D0003EEF7 /* MLVSyncEngine.m */; };
+		405E028617CCE17A0003EEF7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 405E028517CCE17A0003EEF7 /* CoreData.framework */; };
+		405E028917CCE5650003EEF7 /* GolfCalculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 405E028717CCE5650003EEF7 /* GolfCalculator.xcdatamodeld */; };
+		405E028C17CCE99E0003EEF7 /* Club.m in Sources */ = {isa = PBXBuildFile; fileRef = 405E028B17CCE99E0003EEF7 /* Club.m */; };
+		405E028F17CCE99E0003EEF7 /* IronSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 405E028E17CCE99E0003EEF7 /* IronSet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +67,40 @@
 		405E024E17CCDBF20003EEF7 /* MLVSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLVSecondViewController.m; sourceTree = "<group>"; };
 		405E025017CCDBF20003EEF7 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		405E025217CCDBF20003EEF7 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		405E025917CCDC460003EEF7 /* MLVCoreDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLVCoreDataController.h; sourceTree = "<group>"; };
+		405E025A17CCDC460003EEF7 /* MLVCoreDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLVCoreDataController.m; sourceTree = "<group>"; };
+		405E025D17CCDC7B0003EEF7 /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		405E025E17CCDC7B0003EEF7 /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		405E025F17CCDC7B0003EEF7 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		405E026017CCDC7B0003EEF7 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		405E026117CCDC7B0003EEF7 /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		405E026217CCDC7B0003EEF7 /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		405E026317CCDC7B0003EEF7 /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		405E026417CCDC7B0003EEF7 /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		405E026517CCDC7B0003EEF7 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		405E026617CCDC7B0003EEF7 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		405E026717CCDC7B0003EEF7 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		405E026817CCDC7B0003EEF7 /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		405E026917CCDC7B0003EEF7 /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		405E026A17CCDC7B0003EEF7 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		405E026B17CCDC7B0003EEF7 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		405E026C17CCDC7B0003EEF7 /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		405E026D17CCDC7B0003EEF7 /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		405E026E17CCDC7B0003EEF7 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		405E026F17CCDC7B0003EEF7 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		405E027917CCDCA10003EEF7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		405E027B17CCDCA60003EEF7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		405E027D17CCDCAB0003EEF7 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		405E027F17CCDD380003EEF7 /* MLVAFParseAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLVAFParseAPIClient.h; sourceTree = "<group>"; };
+		405E028017CCDD380003EEF7 /* MLVAFParseAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLVAFParseAPIClient.m; sourceTree = "<group>"; };
+		405E028217CCE03D0003EEF7 /* MLVSyncEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLVSyncEngine.h; sourceTree = "<group>"; };
+		405E028317CCE03D0003EEF7 /* MLVSyncEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLVSyncEngine.m; sourceTree = "<group>"; };
+		405E028517CCE17A0003EEF7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		405E028817CCE5650003EEF7 /* GolfCalculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GolfCalculator.xcdatamodel; sourceTree = "<group>"; };
+		405E028A17CCE99E0003EEF7 /* Club.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Club.h; sourceTree = "<group>"; };
+		405E028B17CCE99E0003EEF7 /* Club.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Club.m; sourceTree = "<group>"; };
+		405E028D17CCE99E0003EEF7 /* IronSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IronSet.h; sourceTree = "<group>"; };
+		405E028E17CCE99E0003EEF7 /* IronSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IronSet.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +108,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				405E028617CCE17A0003EEF7 /* CoreData.framework in Frameworks */,
+				405E027E17CCDCAB0003EEF7 /* MobileCoreServices.framework in Frameworks */,
+				405E027C17CCDCA60003EEF7 /* SystemConfiguration.framework in Frameworks */,
+				405E027A17CCDCA10003EEF7 /* Security.framework in Frameworks */,
 				405E022C17CCDBF20003EEF7 /* UIKit.framework in Frameworks */,
 				405E022E17CCDBF20003EEF7 /* Foundation.framework in Frameworks */,
 				405E023017CCDBF20003EEF7 /* CoreGraphics.framework in Frameworks */,
@@ -67,6 +124,7 @@
 		405E021F17CCDBF20003EEF7 = {
 			isa = PBXGroup;
 			children = (
+				405E028717CCE5650003EEF7 /* GolfCalculator.xcdatamodeld */,
 				405E023117CCDBF20003EEF7 /* GolfCalculator */,
 				405E022A17CCDBF20003EEF7 /* Frameworks */,
 				405E022917CCDBF20003EEF7 /* Products */,
@@ -84,6 +142,10 @@
 		405E022A17CCDBF20003EEF7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				405E028517CCE17A0003EEF7 /* CoreData.framework */,
+				405E027B17CCDCA60003EEF7 /* SystemConfiguration.framework */,
+				405E027917CCDCA10003EEF7 /* Security.framework */,
+				405E027D17CCDCAB0003EEF7 /* MobileCoreServices.framework */,
 				405E022B17CCDBF20003EEF7 /* UIKit.framework */,
 				405E022D17CCDBF20003EEF7 /* Foundation.framework */,
 				405E022F17CCDBF20003EEF7 /* CoreGraphics.framework */,
@@ -94,6 +156,8 @@
 		405E023117CCDBF20003EEF7 /* GolfCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				405E025C17CCDC7B0003EEF7 /* AFNetworking */,
+				405E029017CCE9CB0003EEF7 /* Models */,
 				405E023A17CCDBF20003EEF7 /* MLVAppDelegate.h */,
 				405E023B17CCDBF20003EEF7 /* MLVAppDelegate.m */,
 				405E024317CCDBF20003EEF7 /* MainStoryboard.storyboard */,
@@ -106,6 +170,12 @@
 				405E025017CCDBF20003EEF7 /* second.png */,
 				405E025217CCDBF20003EEF7 /* second@2x.png */,
 				405E023217CCDBF20003EEF7 /* Supporting Files */,
+				405E025917CCDC460003EEF7 /* MLVCoreDataController.h */,
+				405E025A17CCDC460003EEF7 /* MLVCoreDataController.m */,
+				405E027F17CCDD380003EEF7 /* MLVAFParseAPIClient.h */,
+				405E028017CCDD380003EEF7 /* MLVAFParseAPIClient.m */,
+				405E028217CCE03D0003EEF7 /* MLVSyncEngine.h */,
+				405E028317CCE03D0003EEF7 /* MLVSyncEngine.m */,
 			);
 			path = GolfCalculator;
 			sourceTree = "<group>";
@@ -122,6 +192,44 @@
 				405E024117CCDBF20003EEF7 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		405E025C17CCDC7B0003EEF7 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				405E025D17CCDC7B0003EEF7 /* AFHTTPClient.h */,
+				405E025E17CCDC7B0003EEF7 /* AFHTTPClient.m */,
+				405E025F17CCDC7B0003EEF7 /* AFHTTPRequestOperation.h */,
+				405E026017CCDC7B0003EEF7 /* AFHTTPRequestOperation.m */,
+				405E026117CCDC7B0003EEF7 /* AFImageRequestOperation.h */,
+				405E026217CCDC7B0003EEF7 /* AFImageRequestOperation.m */,
+				405E026317CCDC7B0003EEF7 /* AFJSONRequestOperation.h */,
+				405E026417CCDC7B0003EEF7 /* AFJSONRequestOperation.m */,
+				405E026517CCDC7B0003EEF7 /* AFNetworkActivityIndicatorManager.h */,
+				405E026617CCDC7B0003EEF7 /* AFNetworkActivityIndicatorManager.m */,
+				405E026717CCDC7B0003EEF7 /* AFNetworking.h */,
+				405E026817CCDC7B0003EEF7 /* AFPropertyListRequestOperation.h */,
+				405E026917CCDC7B0003EEF7 /* AFPropertyListRequestOperation.m */,
+				405E026A17CCDC7B0003EEF7 /* AFURLConnectionOperation.h */,
+				405E026B17CCDC7B0003EEF7 /* AFURLConnectionOperation.m */,
+				405E026C17CCDC7B0003EEF7 /* AFXMLRequestOperation.h */,
+				405E026D17CCDC7B0003EEF7 /* AFXMLRequestOperation.m */,
+				405E026E17CCDC7B0003EEF7 /* UIImageView+AFNetworking.h */,
+				405E026F17CCDC7B0003EEF7 /* UIImageView+AFNetworking.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		405E029017CCE9CB0003EEF7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				405E028D17CCE99E0003EEF7 /* IronSet.h */,
+				405E028E17CCE99E0003EEF7 /* IronSet.m */,
+				405E028A17CCE99E0003EEF7 /* Club.h */,
+				405E028B17CCE99E0003EEF7 /* Club.m */,
+			);
+			name = Models;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +307,21 @@
 				405E023C17CCDBF20003EEF7 /* MLVAppDelegate.m in Sources */,
 				405E024817CCDBF20003EEF7 /* MLVFirstViewController.m in Sources */,
 				405E024F17CCDBF20003EEF7 /* MLVSecondViewController.m in Sources */,
+				405E025B17CCDC460003EEF7 /* MLVCoreDataController.m in Sources */,
+				405E027017CCDC7B0003EEF7 /* AFHTTPClient.m in Sources */,
+				405E027117CCDC7B0003EEF7 /* AFHTTPRequestOperation.m in Sources */,
+				405E027217CCDC7B0003EEF7 /* AFImageRequestOperation.m in Sources */,
+				405E027317CCDC7B0003EEF7 /* AFJSONRequestOperation.m in Sources */,
+				405E027417CCDC7B0003EEF7 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				405E027517CCDC7B0003EEF7 /* AFPropertyListRequestOperation.m in Sources */,
+				405E027617CCDC7B0003EEF7 /* AFURLConnectionOperation.m in Sources */,
+				405E027717CCDC7B0003EEF7 /* AFXMLRequestOperation.m in Sources */,
+				405E027817CCDC7B0003EEF7 /* UIImageView+AFNetworking.m in Sources */,
+				405E028117CCDD380003EEF7 /* MLVAFParseAPIClient.m in Sources */,
+				405E028417CCE03D0003EEF7 /* MLVSyncEngine.m in Sources */,
+				405E028917CCE5650003EEF7 /* GolfCalculator.xcdatamodeld in Sources */,
+				405E028C17CCE99E0003EEF7 /* Club.m in Sources */,
+				405E028F17CCE99E0003EEF7 /* IronSet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +446,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		405E028717CCE5650003EEF7 /* GolfCalculator.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				405E028817CCE5650003EEF7 /* GolfCalculator.xcdatamodel */,
+			);
+			currentVersion = 405E028817CCE5650003EEF7 /* GolfCalculator.xcdatamodel */;
+			path = GolfCalculator.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 405E022017CCDBF20003EEF7 /* Project object */;
 }
